@@ -69,7 +69,7 @@ int sum(int x, int y){
 }*/
 
 //table
-void printTable(int n);
+/*void printTable(int n);
 int main(){
     int n;
     printf("Enter a number:");
@@ -82,4 +82,42 @@ void printTable(int x){        //parameter/formal parameter
     for(int i = 1; i<=10; i++){
         printf("%d\n",i*x);
     }
+}*/
+
+
+//write a function to convert celsius to fahrenheit
+/*float covertTemp(float c);
+int main(){
+    printf("%f", covertTemp(37));
+    return 0;
 }
+float covertTemp(float c){
+    float far = c * (9.0/5.0) + 32;
+    return far;
+}*/
+
+//fahrenheit to celsius
+/*float convertTemp(float far);
+int main(){
+    printf("%f", convertTemp(98));
+    return 0;
+}
+float convertTemp(float far){
+    float c = (far - 32) * 5.0/9.0;
+    return c;
+}*/
+
+ //write a function to calculate percentege of a student form marks in science, math, sanskrit
+ /*int calPerc(int science, int math , int sanskrit);
+ int main(){
+    printf("%d", calPerc(80,80,80));
+    return 0;
+ }
+ int calPerc(int science, int math , int sanskrit){
+    int percentage = ((science+math+sanskrit)/3);
+    return percentage;
+ }*/
+
+
+
+ 
